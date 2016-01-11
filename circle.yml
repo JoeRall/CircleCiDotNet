@@ -5,6 +5,7 @@ dependencies:
     - sudo echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
     - sudo echo "deb http://download.mono-project.com/repo/debian wheezy-libtiff-compat main" | sudo tee -a /etc/apt/sources.list.d/mono-xamarin.list
     - sudo apt-get update
+    - sudo apt-get install libgnomeui-0
     - sudo apt-get install mono-devel
 
   override:
